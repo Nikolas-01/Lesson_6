@@ -15,8 +15,7 @@ def get_divisors(n):
         if n % i == 0:
             lst_divisors.append(i)
     return lst_divisors
-#самый большой простой делитель числа
-def get_max_prime(n):
+#самый большой простой делитель числаdef get_max_prime(n):
     lst_max_prime = []
     lst_divs = get_divisors(n)
     for i in lst_divs:
